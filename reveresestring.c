@@ -5,9 +5,6 @@
 /*character buffer size*/
 #define Max_Size 100
 
-
-/*a link: https://www.youtube.com/watch?v=3vVQlP3asXc */ 
-
 /*typedef stack initialisation*/
 typedef struct stack {
 	char data[Max_Size];
@@ -21,6 +18,7 @@ void stack_init(void);
 void push(char);
 char pop(void);
 void display(void);
+
 /*a function to initialise stack*/
 void stack_init(void)
 {
