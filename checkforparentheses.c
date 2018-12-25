@@ -42,7 +42,6 @@ int main (int argc,char *argv[])
 		};
 	int i;
 	for(i=0;i<3;i++){
-		printf("\n%s", testcases[i]);
 		if (checkforparentheses(testcases[i])==1) 
 			printf("Balanced \n"); 
 			else
