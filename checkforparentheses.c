@@ -1,5 +1,4 @@
 /*a compiler program to check the number of paranthese and ...*/
-//https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
 #include <stdio.h>
 #include <stdlib.h>
 
